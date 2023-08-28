@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from aiogram import Bot, Dispatcher, types, executor
 import asyncio
 
-bot_token = '6529520308:AAGvZHvafWZu1zX-KBb3jhtnBBBsF-bYtyc'
+bot_token = '' #Bot token obtenido de BotFather
 bot = Bot(token=bot_token)
 dp = Dispatcher(bot)
 
